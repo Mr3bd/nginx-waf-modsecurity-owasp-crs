@@ -243,7 +243,7 @@ Made with 💻 by a **Cloud Security Engineer**, built for **DevSecOps** and **C
 
 ## 👨‍💻 Author
 
-[Abdullrahman Wasfi](https://www.linkedin.com/in/mr3bd)
+[Abdullrahman Alhawamdeh](https://www.linkedin.com/in/mr3bd)
 
 ---
 
