@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  app:
+    build: ./app
+    container_name: demo-app
+    expose:
+      - "5000"
+    environment:
+      - FLASK_ENV=production
+
+  nginx-waf:
+    build: ./nginx
+    container_name: nginx-waf
+    ports:
+      - "8080:80"
+    depends_on:
+      - app
+    volumes:
+      - ./nginx/waf-logs:/var/log/nginx
