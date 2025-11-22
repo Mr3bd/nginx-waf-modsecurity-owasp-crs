@@ -1,4 +1,4 @@
-# 🛡️ NGINX Reverse Proxy with ModSecurity (OWASP CRS) — Dockerized WAF
+# 🛡️ NGINX Reverse Proxy with ModSecurity (OWASP CRS) - Dockerized WAF
 
 This project is a **fully containerized Web Application Firewall (WAF)** using **NGINX**, **ModSecurity**, and the **OWASP Core Rule Set (CRS)**.  
 It protects a **Flask backend application** running behind a secure reverse proxy, with full request inspection, rate limiting, custom rules, and audit logging.
